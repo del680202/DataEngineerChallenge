@@ -59,7 +59,6 @@ object Main {
     env.setStreamTimeCharacteristic(TimeCharacteristic.EventTime)
     env.getConfig.setAutoWatermarkInterval(1)
 
-
     val text = env.readTextFile(input)
     // Convert log date to event timestamp
     val timestamped = text.assignTimestampsAndWatermarks(new AssignerWithPunctuatedWatermarks[String]{
@@ -75,7 +74,6 @@ object Main {
         }
       }
     })
-
 
     timestamped.keyBy{v =>
       val targetIP = v match{

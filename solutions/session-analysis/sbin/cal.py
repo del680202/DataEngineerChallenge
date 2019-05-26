@@ -22,6 +22,7 @@ def handle_average(input):
     mean_sec = df[["during"]].mean().iloc[0] / 1000
     print("Average session time: %.2f sec." % mean_sec)
 
+
 def handle_top_k(input, k):
     df = read_df(input)
     print("Top-k sessions:")

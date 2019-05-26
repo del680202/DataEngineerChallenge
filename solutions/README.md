@@ -16,7 +16,7 @@ This project is the solution for
 * Anaconda 3.7
 * Python 3.6
 
-Refer to: [session-analysis]((session-analysis/README.md)) folder.
+Refer to: [session-analysis](session-analysis/README.md) folder.
 
 
 # Machine Learning Problems
@@ -26,4 +26,4 @@ Refer to: [session-analysis]((session-analysis/README.md)) folder.
 * Anaconda 3.7
 * Python 3.6+
 
-Refer to: [machine-learning-challenge]((machine-learning-challenge/README.md)) folder.
+Refer to: [machine-learning-challenge](machine-learning-challenge/README.md) folder.

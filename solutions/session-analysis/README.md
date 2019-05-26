@@ -37,6 +37,9 @@ Output Format: csv files
 | sessionStart | Timestamp of session start |
 | sessionEnd | Timestamp of session end |
 
+Note.
+Result already has been saved on [sessions](../../sessions) directory.
+
 # 2. Determine the average session time and top-k longest session
 
 This phase solve:
